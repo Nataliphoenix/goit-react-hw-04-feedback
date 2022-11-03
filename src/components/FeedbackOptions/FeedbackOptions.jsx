@@ -7,7 +7,6 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       {key}
     </Button>
   ));
-  
 };
 
 FeedbackOptions.propTypes = {
@@ -17,5 +16,4 @@ FeedbackOptions.propTypes = {
     bad: PropTypes.number,
   }).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
-
 };
